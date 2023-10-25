@@ -1,0 +1,8 @@
+/*
+(yes, you *can* reduce the opacity of the effect by hovering over the profile, but like... no.
+i'd rather not have these play to begin with.)
+*/
+
+div[class^='profileEffects'] {
+    display: none;
+}

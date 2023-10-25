@@ -1,0 +1,19 @@
+/*
+Imagine if we added a feature, that's just like reactions, but whenever someone adds a reaction,
+we play a ridiculous animation which doesn't care if you're not even tabbed into Discord, and just
+plays regardless.
+
+That's *bound* to steal someone's attention and make them think "wow, that's so cool, I'll buy Nitro just for this! I can't wait to show off with this nuisance feature!"
+
+(this hides the animation on super reactions. that's literally all it does. did you not read the label on the tin?)
+*/
+
+div[class*='reactionInner'] > div > div[class*='effectsWrapper'] {
+    display: none !important;
+}
+div[class*='reactionInner'] > div > img[class*='hideEmoji'] {
+    opacity: 1 !important;
+}
+div[class*='shakeReaction'] {
+    animation: none !important;
+}

@@ -1,0 +1,10 @@
+/*
+For whatever godforsaken reason, if you specifically unfollow a voice channel, the channel is never
+*fully* hidden. Instead, if someone joins a voice channel you don't "follow", then instead Discord shoves
+this ridiculous nag at the bottom of the channel list, telling you people are in voice.
+
+Now, get this: I have the voice channel hidden, because I *do not care*, and will *never join the voice channel*.
+*/
+nav:has(#channels) > div[class*='container__']:has(div > [role='button'] > svg[class^='voiceChannelsIcon']) {
+    display: none;
+}

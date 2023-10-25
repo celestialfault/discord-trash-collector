@@ -1,0 +1,16 @@
+/*
+For *whatever reason*, this single menu option in server settings, conveniently placed where it's
+likely you've accidentally clicked on it at least once trying to click on Integrations,
+*does not return you to where you were previously when closed*.
+
+It instead closes the entire server settings menu.
+
+Because UX is a completely foreign concept to Discord.
+
+(do note that if you still need to get to this for whatever reason, you can still do so through the right click context menu.)
+*/
+
+[role='tab'][aria-label='App Directory'],
+[role='menuitem'][id*='application-directory'] {
+    display: none;
+}

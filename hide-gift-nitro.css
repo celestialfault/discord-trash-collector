@@ -1,0 +1,11 @@
+/*
+Hide the ever obnoxious Gift Nitro button that still persists to this day,
+because heaven forbid we don't add a button barely anyone will intentionally click on!
+
+Then we'd be risking someone not accidentally clicking it and deciding that yes, I actually will
+spend $100 gifting someone a year of Nitro, thank you for telling me exactly what I wanted to do!
+*/
+
+div[class^='channelTextArea'] > div > div > [class^='buttons'] > :not([class^='expression-picker']):not([class^='separator']) {
+    display: none;
+}

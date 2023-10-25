@@ -1,0 +1,11 @@
+/*
+This was tolerable when it was just screenshare badges.
+
+Badges whenever someone is *in a voice channel* is ridiculously excessive, especially when you get
+to have a large server list of public servers, most of which you really don't care *that much* about.
+*/
+
+[class*='listItem'] > div > div > div > [class*='upperBadge'],
+[class*='listItem'] > div > div > div > svg > mask > use[href*='upper_badge_masks'] {
+    display: none;
+}
