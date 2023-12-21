@@ -5,6 +5,7 @@ this ridiculous nag at the bottom of the channel list, telling you people are in
 
 Now, get this: I have the voice channel hidden, because I *do not care*, and will *never join the voice channel*.
 */
-nav:has(#channels) > div[class*='container__']:has(div > [role='button'] > svg[class^='voiceChannelsIcon']) {
-    display: none;
+
+nav:has(#channels) > div[class^='container']:has(div > svg[class^='voiceChannelsIcon']) {
+  display: none;
 }
