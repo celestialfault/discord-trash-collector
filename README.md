@@ -1,9 +1,14 @@
 # The Discord trash collector
 
-This is a collection of CSS snippets aimed at making Discord slightly more tolerable by removing some trash "features".
+This is a (relatively opinionated) collection of CSS snippets aimed at making Discord slightly more tolerable by
+hiding certain "features".
 
-Do note that this is entirely built up based on my personal complaints while using Discord; as such, this could be considered
-at least slightly opinionated, or even outright completely nonsensical to most average users.
+## How to use
 
-These are all split up into individual CSS files to allow for picking and choosing what you care about; simply
-copy the contents of the file, and paste it into the Custom CSS of the client mod of your choice.
+The simplest option is to open the relevant `.css` file from the list in this repository and copy/paste its contents
+into the Custom CSS editor of your client mod of choice. *(some may give this feature a different name, such as Quick CSS;
+they should all work the same regardless.)*
+
+This is primarly built to support [OpenAsar](https://openasar.dev/), but given that this is just plain CSS, everything
+in this repository should work on nearly every client mod, such as Vencord, Better Discord, or even regular browser
+extensions like Stylus.
