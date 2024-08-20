@@ -1,4 +1,5 @@
 /* No, I don't want to be nagged to send a message in your server's introductions channel. */
+
 ul[aria-label='Channels'] > div[class*='progressBarContainer'],
 main[class*='chatContent'] > div[class*='container']:has(div > div > div[class*='iconCircle'] > svg > polygon[points='13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8']) {
     display: none;

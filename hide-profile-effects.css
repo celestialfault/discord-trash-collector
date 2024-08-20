@@ -1,6 +1,12 @@
 /*
-(yes, you *can* reduce the opacity of the effect by hovering over the profile, but like... no.
-i'd rather not have these play to begin with.)
+Profile effects, with only a literal handful handful of exceptions, are nothing more than overly animated,
+obnoxious, and just outright obtrusive animations, which completely obscure the profile you're trying
+to look at.
+
+Because heaven forbid we actually let you look at someone's profile.
+
+Yes, hovering over the profile card does reduce the opacity, but I don't want to have to do that.
+So instead, let's just completely hide them. That fixes the issue pretty well.
 */
 
 div[class^='profileEffects'] {
