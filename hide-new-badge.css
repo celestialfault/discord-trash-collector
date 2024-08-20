@@ -1,0 +1,9 @@
+/*
+Hides the 'NEW' badge that Discord seems to love to just permanently stick
+in some servers, with no other way to remove it other than forcibly hiding the
+badge in its entirety.
+*/
+
+div[class*='newChannel'] {
+    display: none !important;
+}

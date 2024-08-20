@@ -1,0 +1,14 @@
+/*
+Discord, what is the point of this?
+
+I don't use this. I look at it for 5 seconds because I accidentally clicked
+on it once a month at most.
+
+I don't need this persistent footer telling me that this exists.
+
+Please stop. Give me back my screen space.
+*/
+
+ul[data-list-id='guildsnav'] > div[class^='footer_'] {
+    display: none;
+}

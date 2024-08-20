@@ -1,0 +1,13 @@
+/*
+Discord, I need you to understand something: I am on desktop.
+
+I know how to press the '/' key.
+
+I don't need you to recommend me this AI "AnImAtE aNy ChArAcTeR" garbage.
+
+Get this out of my chat bar.
+*/
+
+div[class^='channelAppLauncher_'] {
+    display: none;
+}
