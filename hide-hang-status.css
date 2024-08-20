@@ -1,9 +1,0 @@
-/*
-hides the "hang status" icon in voice channels
-
-because god knows we needed yet another icon in voice channels
-*/
-
-div[class^='iconGroup']:has(div > img[class^='hangStatusIcon']) {
-  display: none;
-}
