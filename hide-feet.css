@@ -1,0 +1,8 @@
+/*
+hides the writers barely disguised fetish
+*/
+
+img[class^='avatarDecoration'][src*='dcfe10bac4a782ffb5eefef7a8003115'],
+svg[class^='avatarDecoration']:has(foreignObject > div > img[src*='dcfe10bac4a782ffb5eefef7a8003115']) {
+  display: none;
+}
