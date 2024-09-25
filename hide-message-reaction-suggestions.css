@@ -1,0 +1,7 @@
+div[aria-label='Message Actions'] > div > div[class^='reactionSuggestion_'] {
+    display: none;
+}
+
+div[aria-label='Message Actions'] > div > div[class^='separator_'] {
+    display: none;
+}
