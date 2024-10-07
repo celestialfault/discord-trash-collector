@@ -11,11 +11,11 @@ And finally, imagine, we charged you for the privilege.
 */
 
 div[class*='reactionInner'] > div > div[class*='effectsWrapper'] {
-  display: none !important;
+	display: none !important;
 }
 div[class*='reactionInner'] > div > img[class*='hideEmoji'] {
-  opacity: 1 !important;
+	opacity: 1 !important;
 }
 div[class*='shakeReaction'] {
-  animation: none !important;
+	animation: none !important;
 }

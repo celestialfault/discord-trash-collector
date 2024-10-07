@@ -9,9 +9,9 @@ Get this out of my chat bar.
 */
 
 div[class^='channelAppLauncher_'] {
-    display: none;
+	display: none;
 }
 
 div[class^='jumpToPresentBar_'] {
-    right: 16px;
+	right: 16px;
 }

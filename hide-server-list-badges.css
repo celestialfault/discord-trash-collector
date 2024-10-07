@@ -7,5 +7,5 @@ to have a large server list of public servers, most of which you really don't ca
 
 [class*='listItem'] > div > div > div > [class*='upperBadge'],
 [class*='listItem'] > div > div > div > svg > mask > use[href*='upper_badge_masks'] {
-    display: none;
+	display: none;
 }

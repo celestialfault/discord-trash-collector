@@ -3,5 +3,5 @@ Get this garbage that proudly recommends "AI" trash to "edit" my images off my s
 */
 
 div[class^='imageContainer_'] > div[class^='hoverButtonGroup_'] > div[aria-label='Edit Image with Apps'] {
-    display: none;
+	display: none;
 }

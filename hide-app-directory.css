@@ -9,5 +9,5 @@ That's it. That's the complaint. It's just garbage.
 
 [role='tab'][aria-label='App Directory'],
 [role='menuitem'][id*='application-directory'] {
-    display: none;
+	display: none;
 }

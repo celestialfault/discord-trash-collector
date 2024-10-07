@@ -10,9 +10,9 @@ Please stop. Give me back my screen space.
 */
 
 ul[data-list-id='guildsnav'] > div[class^='footer_'] {
-    display: none;
+	display: none;
 }
 
 div[class^='unreadMentionsIndicatorBottom_'] {
-    bottom: 0px;
+	bottom: 0px;
 }

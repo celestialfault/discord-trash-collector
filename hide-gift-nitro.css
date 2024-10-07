@@ -5,5 +5,5 @@ That's it. That's all it does.
 */
 
 div[class^='channelTextArea'] > div > div > [class^='buttons'] > :not([class^='expression-picker']):not([class^='separator']) {
-    display: none;
+	display: none;
 }

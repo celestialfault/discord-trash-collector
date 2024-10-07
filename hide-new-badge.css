@@ -5,5 +5,5 @@ badge in its entirety.
 */
 
 div[class*='newChannel'] {
-    display: none !important;
+	display: none !important;
 }

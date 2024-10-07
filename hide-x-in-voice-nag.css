@@ -7,5 +7,5 @@ Now, get this: I have the voice channel hidden, because I *do not care*, and wil
 */
 
 nav:has(#channels) > div[class^='container']:has(div > svg[class^='voiceChannelsIcon']) {
-  display: none;
+	display: none;
 }

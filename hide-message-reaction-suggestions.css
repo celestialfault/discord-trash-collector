@@ -1,7 +1,7 @@
 div[class*='popoverReactionHoverBar_'] > div[class^='separator_'] {
-  display: none;
+	display: none;
 }
 
 div[class*='popoverReactionHoverBar_'] > div:has(div > div[style*='background-size: contain;']) {
-  display: none;
+	display: none;
 }
