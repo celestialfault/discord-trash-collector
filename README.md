@@ -12,3 +12,5 @@ they should all work the same regardless.)*
 This is primarly built to support [OpenAsar](https://openasar.dev/), but given that this is just plain CSS, everything
 in this repository should work on nearly every client mod, such as Vencord, Better Discord, or even regular browser
 extensions like Stylus.
+
+Note that while it is possible to `@include url()` these, this isn't recommended as I make no guarantee to not break such imports.
