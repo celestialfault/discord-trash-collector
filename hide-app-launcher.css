@@ -12,6 +12,7 @@ div[class^='channelAppLauncher_'] {
 	display: none;
 }
 
-div[class^='jumpToPresentBar_'] {
+div[class^='jumpToPresentBar_'],
+div[class^='messagesErrorBar_'] {
 	right: 16px;
 }
