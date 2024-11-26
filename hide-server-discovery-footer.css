@@ -9,7 +9,8 @@ I don't need this persistent footer telling me that this exists.
 Please stop. Give me back my screen space.
 */
 
-ul[data-list-id='guildsnav'] > div[class^='footer_'] {
+ul[data-list-id='guildsnav'] > div[class^='footer_'],
+ul[data-list-id='guildsnav'] > div[class^='itemsContainer_'] > div[class^='footer_'] {
 	display: none;
 }
 
