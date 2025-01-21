@@ -1,5 +1,9 @@
 # The Discord trash collector
 
+**This project now lives on [Codeberg](https://codeberg.org/celestialfault/discord-trash-collector)**
+
+------
+
 This is a (relatively opinionated) collection of CSS snippets aimed at making Discord slightly more tolerable by
 hiding certain "features".
 
